@@ -1,0 +1,16 @@
+﻿El código de esta carpeta genera de manera automatizada la medición de PTF bajo la metodología CNP reportada en el (1er) Informe Anual de Productividad 2016.
+
+Archivos en esta carpeta:
+1. PTF_IPROD_2016  : Corresponde al código que aplica la metodología CNP.
+2. INE y BC 	   : Corresponden a los insumos necesarios para el cálculo.
+3. DATA 	   : En esta planilla se copian las series generadas por el código.
+
+*Además de los archivos antes mencionados, se debe hacer referencia a una carpeta donde se guarden las Encuestas CASEN (hasta el 2015).
+
+Funcionamiento: 
+Consiste en correr el código (PTF_IPROD_2016.do). Este código toma de las planillas de insumo (INE y BC) los insumos y finalmente copia las series en la hoja "data" de la planilla "DATA".
+
+Para un correcto funcionamiento se deben instalar los packages necesarios (especificados al comienzo del código), junto con especificar los Paths o carpetas donde se ubica la carpeta PTF y donde se ubican las Encuestas CASEN. 
+
+Una vez ejecutado el código se generan varios archivos .dta, los que sirven como subproductos en el proceso.
+Para ejecutar nuevamente el código no es necesario borrar estos archivos, ya que son reemplazados. 
