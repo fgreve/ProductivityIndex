@@ -1,6 +1,6 @@
 # PTF_IPROD_2016
 
-# PTF Productivity Commission Metric of the 2016 Report#
+# Total Factor Productivity Metrics for Chile#
 
 The code in this folder automatically generates TFP measurement under the CNP methodology reported in the (1st) Annual Productivity Report 2016.
 
