@@ -1,6 +1,6 @@
 # ProductivityIndex
 
-# Total Factor Productivity Metrics for Chile#
+## Total Factor Productivity Metrics for Chile
 
 The code in this folder automatically generates TFP measurement under the CNP methodology reported in the (1st) Annual Productivity Report 2016.
 
